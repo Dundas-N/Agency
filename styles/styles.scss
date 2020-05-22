@@ -346,7 +346,6 @@ footer{
     margin: 0 auto;
 
     .logo-s{
-        // text-align: center;
        width: 80px;
        display: flex;
        margin: 0 auto;
@@ -545,7 +544,7 @@ footer{
    .logo-section-large{
        display: grid;
        width: 100%;
-       height: 50vh;
+       
        margin: 0 auto;
        background-color: $second-color;
        grid-template-columns: 1fr;
@@ -575,7 +574,7 @@ footer{
             img{
                 object-fit: cover;
                 width: 100%;
-                max-height: 100%;
+                // max-height: 100%;
             }
             h3{
                 position: absolute;
@@ -605,6 +604,7 @@ footer{
         }
         a{
             opacity: 0.7; 
+            margin-left: 10px;
         }
 
         .logo-s{
@@ -694,8 +694,8 @@ footer{
     }
 
     footer{
-        height: 7vh;
+        height: 10vh;
         justify-content: space-between;
-        margin-top: -6px; 
+        
     }
 }

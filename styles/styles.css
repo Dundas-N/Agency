@@ -606,7 +606,6 @@ footer .socials a:hover {
     display: -ms-grid;
     display: grid;
     width: 100%;
-    height: 50vh;
     margin: 0 auto;
     background-color: #0C0B0B;
     -ms-grid-columns: 1fr;
@@ -642,7 +641,6 @@ footer .socials a:hover {
     -o-object-fit: cover;
        object-fit: cover;
     width: 100%;
-    max-height: 100%;
   }
   .section-four a h3 {
     position: absolute;
@@ -676,6 +674,7 @@ footer .socials a:hover {
   }
   footer a {
     opacity: 0.7;
+    margin-left: 10px;
   }
   footer .logo-s {
     width: 60px;
@@ -743,11 +742,10 @@ footer .socials a:hover {
     font-weight: lighter;
   }
   footer {
-    height: 7vh;
+    height: 10vh;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-top: -6px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
